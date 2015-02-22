@@ -1,0 +1,41 @@
+/*
+  Icon Font: fontcustom
+*/
+
+@font-face {
+  font-family: "fontcustom";
+  src: url("../fonts/fontcustom_21da149c34554569c5fb2990ca806c7d.eot");
+  src: url("../fonts/fontcustom_21da149c34554569c5fb2990ca806c7d.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/fontcustom_21da149c34554569c5fb2990ca806c7d.woff") format("woff"),
+       url("../fonts/fontcustom_21da149c34554569c5fb2990ca806c7d.ttf") format("truetype"),
+       url("../fonts/fontcustom_21da149c34554569c5fb2990ca806c7d.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fontcustom";
+    src: url("../fonts/fontcustom_21da149c34554569c5fb2990ca806c7d.svg#fontcustom") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-knighticon:before {
+  display: inline-block;
+  font-family: "fontcustom";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-knighticon:before { content: "\f101"; }
